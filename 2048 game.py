@@ -2,7 +2,7 @@
 Clone of 2048 game.
 """
 import random
-#import poc_2048_gui
+import poc_2048_gui
 
 # Directions, DO NOT MODIFY
 UP = 1
@@ -221,4 +221,4 @@ class TwentyFortyEight:
 #my = TwentyFortyEight(4, 4)
 
 
-#poc_2048_gui.run_gui(TwentyFortyEight(4, 5))
+poc_2048_gui.run_gui(TwentyFortyEight(4, 5))
